@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.media_embeddable.field_media_embeddable
+    - image.style.medium
+    - media.type.media_embeddable
+  module:
+    - image
+id: media.media_embeddable.media_library
+targetEntityType: media
+bundle: media_embeddable
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_embeddable: true
+  name: true
+  uid: true

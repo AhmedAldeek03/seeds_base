@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_embeddable
+    - media.type.media_embeddable
+  module:
+    - text
+id: media.media_embeddable.field_media_embeddable
+field_name: field_media_embeddable
+entity_type: media
+bundle: media_embeddable
+label: 'HTML Embed'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

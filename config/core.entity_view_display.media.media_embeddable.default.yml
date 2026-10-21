@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.media_embeddable.field_media_embeddable
+    - media.type.media_embeddable
+  module:
+    - media_embeddable
+id: media.media_embeddable.default
+targetEntityType: media
+bundle: media_embeddable
+mode: default
+content:
+  field_media_embeddable:
+    type: html_field_formatter
+    label: hidden
+    settings:
+      responsive: '1'
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

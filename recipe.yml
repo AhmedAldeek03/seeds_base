@@ -1,0 +1,1040 @@
+name: 'Seeds base'
+description: 'The foundation of a Seeds site: Seeds modules, the Seeds UI and Default Admin themes, media types, editor, toolbar and security settings. It replaces the Seeds install profile.'
+type: Site
+install:
+  - ace_editor
+  - activities
+  - allowed_formats
+  - automated_cron
+  - blazy
+  - block
+  - block_content
+  - captcha
+  - ckeditor5
+  - ckeditor5_plugin_pack
+  - ckeditor_bidi
+  - ckeditor_media_resize
+  - ckeditor_responsive_table
+  - config
+  - contextual
+  - crop
+  - datetime
+  - diff
+  - ds
+  - dynamic_page_cache
+  - editor
+  - editor_advanced_link
+  - email_tfa
+  - embed
+  - entity_embed
+  - fast404
+  - field
+  - field_group
+  - file
+  - filter
+  - focal_point
+  - fpa
+  - help
+  - image
+  - js_cookie
+  - layout_builder
+  - layout_discovery
+  - link
+  - linkit
+  - masquerade
+  - media
+  - media_embeddable
+  - media_library
+  - media_library_edit
+  - menu_admin_per_menu
+  - menu_link_content
+  - menu_ui
+  - mysql
+  - navigation
+  - node
+  - options
+  - page_cache
+  - password_policy
+  - path
+  - path_alias
+  - recaptcha
+  - remove_http_headers
+  - responsive_preview
+  - restrict_ip
+  - seckit
+  - seeds_development
+  - seeds_editor
+  - seeds_media
+  - seeds_pollination
+  - seeds_security
+  - seeds_toolbar
+  - session_limit
+  - shortcut
+  - smart_trim
+  - taxonomy
+  - text
+  - token
+  - update
+  - username_enumeration_prevention
+  - views
+  - views_bulk_edit
+  - views_bulk_operations
+  - default_admin
+  - seeds_ui
+config:
+  strict: false
+  actions:
+    ace_editor.settings:
+      simpleConfigUpdate:
+        theme_list:
+          cobalt: Cobalt
+          ambiance: Ambiance
+          chaos: Chaos
+          chrome: Chrome
+          clouds: Clouds
+          clouds_midnight: 'Clouds Midnight'
+          crimson_editor: 'Crimson Editor'
+          dawn: Dawn
+          dreamweaver: Dreamweaver
+          eclipse: Eclipse
+          github: Github
+          idle_fingers: 'Idle Fingers'
+          iplastic: Iplastic
+          katzenmilch: Katzenmilch
+          kr_theme: 'Kr Theme'
+          kuroir: Kuroir
+          merbivore: Merbivore
+          merbivore_soft: 'Merbivore Soft'
+          mono_industrial: 'Mono Industrial'
+          monokai: Monokal
+          pastel_on_dark: 'Pastel On Dark'
+          solarized_dark: 'Solarized Dark'
+          solarized_light: 'Solarized Light'
+          sqlserver: 'Sql Server'
+          terminal: Terminal
+          textmate: Textmate
+          tomorrow: 'Tomorrow Night'
+          tomorrow_night: 'Tomorrow Night'
+          tomorrow_night_blue: 'Tomorrow Night Blue'
+          tomorrow_night_bright: 'Tomorrow Night Bright'
+          tomorrow_night_eighties: 'Tomorrow Night Eighties'
+          twilight: Twilight
+          vibrant_ink: 'Vibrant Ink'
+          xcode: Xcode
+        syntax_list:
+          abap: Abap
+          abc: Abc
+          actionscript: 'Action Script'
+          ada: Ada
+          apache_conf: 'Apache Conf'
+          applescript: 'Apple Script'
+          asciidoc: Asciidoc
+          assembly_x86: 'Assembly x86'
+          autohotkey: Autohotkey
+          batchfile: Batchfile
+          bro: Bro
+          c9search: C9search
+          c_cpp: C/C++
+          cirru: Cirru
+          clojure: Clojure
+          cobol: Cobol
+          coffee: Coffee
+          coldfusion: Coldfusion
+          csharp: 'C#'
+          css: CSS
+          curly: Curly
+          d: D
+          dart: Dart
+          diff: Diff
+          django: Django
+          dockerfile: DOckerfile
+          dot: Dot
+          drools: Drools
+          eiffel: Eiffel
+          ejs: Ejs
+          elixir: Elixir
+          elm: Elm
+          erlang: Erlang
+          forth: Forth
+          fortran: Fortran
+          ftl: Ftl
+          gcode: Gcode
+          gherkin: Gherkin
+          gitignore: Gitignore
+          glsl: Glsl
+          gobstones: Gobstones
+          golang: Golang
+          groovy: Groovy
+          haml: Haml
+          handlebars: Handlebars
+          haskell: Haskell
+          haskell_cabal: 'Haskel Cabal'
+          haxe: Haxe
+          hjson: HJSON
+          html: HTML
+          html_elixir: 'Html Elixir'
+          html_ruby: 'Html Ruby'
+          ini: Ini
+          io: Io
+          jack: Jack
+          jade: Jade
+          java: Java
+          javascript: Javascript
+          json: JSON
+          jsoniq: Jsoniq
+          jsp: Jsp
+          jsx: Jsx
+          julia: Julia
+          kotlin: Kotlin
+          latex: Latex
+          lean: Lean
+          less: LESS
+          liquid: Liquid
+          lisp: Lisp
+          live_script: 'Live Script'
+          livescript: Livescript
+          logiql: Logiql
+          lsl: Lsl
+          lua: Lua
+          luapage: Luapage
+          lucene: Lucene
+          makefile: Makefile
+          markdown: Markdown
+          mask: Mask
+          matlab: Matlab
+          maze: Maze
+          mel: Mel
+          mips_assembler: 'Mips Assembler'
+          mipsassembler: 'Mips Assembler'
+          mushcode: Mushcode
+          mysql: Mysql
+          nix: Nix
+          nsis: Nsis
+          objectivec: 'Objective C'
+          ocaml: Ocaml
+          pascal: Pascal
+          perl: Perl
+          pgsql: Pgsql
+          php: PHP
+          plain_text: 'Plain Text'
+          powershell: 'Power Shell'
+          praat: Praat
+          prolog: Prolog
+          properties: Properties
+          protobuf: Protobuf
+          python: Python
+          r: R
+          razor: Razor
+          rdoc: Rdoc
+          rhtml: RHtml
+          rst: Rst
+          ruby: Ruby
+          rust: Rust
+          sass: Sass
+          scad: Scad
+          scala: Scala
+          scheme: Scheme
+          scss: SCSS
+          sh: Sh
+          sjs: Sjs
+          smarty: Smarty
+          snippets: Snippets
+          soy_template: 'Soy Template'
+          space: Space
+          sql: Sql
+          sqlserver: Sqlserver
+          stylus: Stylus
+          svg: svg
+          swift: Swift
+          swig: swig
+          tcl: Tcl
+          tex: Tex
+          text: Text
+          textile: Textile
+          toml: Toml
+          tsx: Tsx
+          twig: Twig
+          typescript: Typescript
+          vala: Vala
+          vbscript: Vbscript
+          velocity: Velocity
+          verilog: Verilog
+          vhdl: Vhdl
+          wollok: Wollok
+          xml: XML
+          xquery: Xquery
+          yaml: YAML
+        theme: cobalt
+        syntax: html
+        height: 300px
+        width: 100%
+        font_size: 12pt
+        line_numbers: true
+        show_invisibles: false
+        print_margins: true
+        auto_complete: true
+        use_wrap_mode: true
+        syntax_field: _none
+        modelist: false
+        inline: false
+    automated_cron.settings:
+      simpleConfigUpdate:
+        interval: 10800
+    blazy.settings:
+      simpleConfigUpdate:
+        admin_css: true
+        nojs:
+          lazy: '0'
+          classlist: '0'
+          polyfill: '0'
+          promise: '0'
+          raf: '0'
+        fx: ''
+        blur_client: false
+        blur_storage: false
+        blur_minwidth: 0
+        noscript: false
+        one_pixel: true
+        visible_class: false
+        wrapper_class: false
+        placeholder: ''
+        unstyled_extensions: ''
+        use_encodedbox: false
+        use_oembed: false
+        privacy_consent: false
+        ratio_modern: false
+        use_custom_css: false
+        css_scope: ''
+        max_region_count: 0
+        blazy:
+          loadInvisible: false
+          offset: 100
+          saveViewportOffsetDelay: 50
+          validateDelay: 25
+          container: ''
+        io:
+          unblazy: false
+          rootMargin: 0px
+          threshold: '0'
+          disconnect: false
+        extras: {  }
+    captcha.settings:
+      simpleConfigUpdate:
+        enable_globally: 0
+        enable_globally_on_admin_routes: false
+        default_challenge: captcha/Math
+        description: 'This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.'
+        title: CAPTCHA
+        administration_mode: false
+        administration_mode_on_admin_routes: false
+        whitelist_ips: ''
+        wrong_captcha_response_message: 'The answer you entered for the CAPTCHA was not correct.'
+        default_validation: 1
+        persistence: 1
+        enable_stats: false
+        log_wrong_responses: false
+    ckeditor5_plugin_pack.settings:
+      simpleConfigUpdate:
+        dll_location: ''
+        block_cdn: false
+    ckeditor_responsive_table.settings:
+      simpleConfigUpdate:
+        default_table_selector: 'table:not([data-drupal-selector="edit-settings-selection-table"])'
+        default_fail_class: tabled--stacked
+        default_caption_side: top
+        default_large_character_threshold: 50
+        default_small_character_threshold: 8
+    core.menu.static_menu_link_overrides:
+      simpleConfigUpdate:
+        definitions: {  }
+    crop.settings:
+      simpleConfigUpdate:
+        flush_derivative_images: true
+    default_admin.settings:
+      simpleConfigUpdate:
+        preset_accent_color: blue
+        preset_focus_color: gin
+        enable_dark_mode: auto
+        high_contrast_mode: false
+        accent_color: ''
+        focus_color: ''
+        layout_density: default
+        show_description_toggle: false
+        show_user_theme_settings: false
+        favicon:
+          use_default: false
+          mimetype: image/vnd.microsoft.icon
+          path: profiles/contrib/seeds/favicon.ico
+    diff.settings:
+      simpleConfigUpdate:
+        general_settings:
+          radio_behavior: simple
+          context_lines_leading: 1
+          context_lines_trailing: 1
+          revision_pager_limit: 50
+          layout_plugins:
+            visual_inline:
+              enabled: true
+              weight: 0
+            split_fields:
+              enabled: true
+              weight: 1
+            unified_fields:
+              enabled: true
+              weight: 2
+          visual_default_view_mode: full
+          visual_inline_theme: default
+    ds.settings:
+      simpleConfigUpdate:
+        disabled: false
+        field_template: false
+        ft_default: default
+        ft_show_colon: false
+        ft_layout_builder: false
+        ft_bc: false
+        ft_default_bc: false
+        ft_expert_prefix_suffix_textarea: false
+        classes:
+          region: {  }
+          field: {  }
+        use_field_names: true
+        exclude_layout_builder_blocks_on_block_field: false
+        layout_icon_image_bc: false
+        layout_suggestion_bc: false
+        array_merge_build_bc: false
+    email_tfa.settings:
+      simpleConfigUpdate:
+        subject: 'One Time Password'
+        body: "Dear [user:name],\r\n    \r\nYour One Time Password for completing your transaction Drupal TFA Verification is: [user:email_tfa]\r\n    \r\nPlease use this Password to complete your transaction. Do not share this password with anyone.\r\n    \r\nThank you,\r\n[site:name] team"
+        routes: "email_tfa.verifiy\r\nuser.logout"
+        timeouts: 300
+        status: false
+        tracks: globally_enabled
+        user_one: false
+        role_exclusion_type: disable_for
+        ignore_role: {  }
+        dev_mode: false
+        security_code_label_text: 'One-time security code'
+        security_code_description_text: 'We sent you an email containing your one-time security code. Please enter the code provided to proceed.'
+        security_code_verify_text: Verify
+        security_code_resend_text: Resend
+        verification_succeeded_message: 'One-time security code verification succeeded.'
+        verification_failed_message: 'One-time security code verification failed.'
+        verification_not_authorized_message: 'You are not authorized to access this page.'
+        security_code_length: 4
+        log_events: false
+        flood_threshold: 5
+        flood_window: 3600
+    embed.settings:
+      simpleConfigUpdate:
+        file_scheme: public
+        upload_directory: embed_buttons
+    entity_embed.settings:
+      simpleConfigUpdate:
+        rendered_entity_mode: false
+    file.settings:
+      simpleConfigUpdate:
+        description:
+          type: textfield
+          length: 128
+        icon:
+          directory: core/modules/file/icons
+        make_unused_managed_files_temporary: false
+        filename_sanitization:
+          transliterate: false
+          replace_whitespace: false
+          replace_non_alphanumeric: false
+          deduplicate_separators: false
+          lowercase: false
+          replacement_character: '-'
+    filter.settings:
+      simpleConfigUpdate:
+        fallback_format: plain_text
+        always_show_fallback_choice: false
+    focal_point.settings:
+      simpleConfigUpdate:
+        crop_type: focal_point
+        default_value: '50,50'
+    image.settings:
+      simpleConfigUpdate:
+        preview_image: core/modules/image/sample.png
+        allow_insecure_derivatives: false
+        suppress_itok_output: false
+    masquerade.settings:
+      simpleConfigUpdate:
+        update_user_last_access: false
+    media.settings:
+      simpleConfigUpdate:
+        icon_base_uri: 'public://media-icons/generic'
+        iframe_domain: null
+        oembed_providers_url: 'https://oembed.com/providers.json'
+        standalone_url: false
+    media_library.settings:
+      simpleConfigUpdate:
+        advanced_ui: false
+    menu_ui.settings:
+      simpleConfigUpdate:
+        override_parent_selector: false
+    navigation.block_layout:
+      simpleConfigUpdate:
+        sections:
+          -
+            layout_id: navigation_layout
+            layout_settings:
+              label: ''
+            components:
+              2622e40b-8786-4b8c-8883-19e49da53023:
+                uuid: 2622e40b-8786-4b8c-8883-19e49da53023
+                region: content
+                configuration:
+                  id: navigation_shortcuts
+                  label: Shortcuts
+                  label_display: '0'
+                  provider: navigation
+                weight: 20
+                additional: {  }
+              3ff7be01-c8b0-4444-88f3-2364d7a8054e:
+                uuid: 3ff7be01-c8b0-4444-88f3-2364d7a8054e
+                region: content
+                configuration:
+                  id: 'navigation_menu:content'
+                  label: Content
+                  label_display: '0'
+                  provider: navigation
+                  level: 1
+                  depth: 3
+                weight: 10
+                additional: {  }
+              3f2f743f-856f-404a-9c28-57ee83af4691:
+                uuid: 3f2f743f-856f-404a-9c28-57ee83af4691
+                region: content
+                configuration:
+                  id: 'navigation_menu:admin'
+                  label: Administration
+                  label_display: '0'
+                  provider: navigation
+                  level: 1
+                  depth: 3
+                weight: 0
+                additional: {  }
+              283da777-e051-4571-8089-47633a9ce706:
+                uuid: 283da777-e051-4571-8089-47633a9ce706
+                region: footer
+                configuration:
+                  id: navigation_user
+                  label: User
+                  label_display: '0'
+                  provider: navigation
+                weight: 0
+                additional: {  }
+              6d7080a7-abab-4bad-b960-2459ca892a54:
+                uuid: 6d7080a7-abab-4bad-b960-2459ca892a54
+                region: footer
+                configuration:
+                  id: navigation_link
+                  label: Help
+                  label_display: '0'
+                  provider: navigation
+                  context_mapping: {  }
+                  title: Help
+                  uri: 'internal:/admin/help'
+                  icon_class: help
+                weight: -1
+                additional: {  }
+              c074ae3b-ec82-43bd-8ec1-deff4630875f:
+                uuid: c074ae3b-ec82-43bd-8ec1-deff4630875f
+                region: content
+                configuration:
+                  id: seeds_toolbar_responsive_preview
+                  label: 'Layout preview'
+                  label_display: '0'
+                  provider: seeds_toolbar
+                weight: 50
+                additional: {  }
+              5fcdbb5a-0c1f-439c-8155-728d8e82af22:
+                uuid: 5fcdbb5a-0c1f-439c-8155-728d8e82af22
+                region: footer
+                configuration:
+                  id: seeds_toolbar_contextual_edit
+                  label: 'Edit mode'
+                  label_display: '0'
+                  provider: seeds_toolbar
+                weight: -2
+                additional: {  }
+              6156bfac-abb4-44c6-8d5b-8b88d9dad9b2:
+                uuid: 6156bfac-abb4-44c6-8d5b-8b88d9dad9b2
+                region: content
+                configuration:
+                  id: seeds_toolbar_page_actions
+                  label: 'Action links'
+                  label_display: '0'
+                  provider: seeds_toolbar
+                weight: 40
+                additional: {  }
+            third_party_settings: {  }
+    navigation.settings:
+      simpleConfigUpdate:
+        logo:
+          provider: default
+          path: ''
+          max:
+            filesize: 1048576
+            height: 48
+            width: 160
+    node.settings:
+      simpleConfigUpdate:
+        use_admin_theme: true
+    password_policy.settings:
+      simpleConfigUpdate:
+        cron_threshold: 250
+    recaptcha.settings:
+      simpleConfigUpdate:
+        site_key: ''
+        secret_key: ''
+        verify_hostname: false
+        use_globally: false
+        widget:
+          theme: light
+          type: image
+          size: ''
+          noscript: false
+    remove_http_headers.settings:
+      simpleConfigUpdate:
+        headers_to_remove:
+          - X-Generator
+          - X-Drupal-Dynamic-Cache
+          - X-Drupal-Cache
+        dependencies:
+          enforced:
+            module:
+              - remove_http_headers
+    restrict_ip.settings:
+      simpleConfigUpdate:
+        enable: false
+        mail_address: ''
+        dblog: false
+        allow_role_bypass: false
+        bypass_action: provide_link_login_page
+        white_black_list: 0
+        country_white_black_list: 0
+        country_list: null
+    seckit.settings:
+      simpleConfigUpdate:
+        seckit_xss:
+          csp:
+            checkbox: false
+            vendor-prefix:
+              x: false
+              webkit: false
+            report-only: false
+            default-src: ''
+            script-src: ''
+            object-src: ''
+            style-src: ''
+            img-src: ''
+            media-src: ''
+            frame-src: ''
+            frame-ancestors: ''
+            child-src: ''
+            font-src: ''
+            connect-src: ''
+            report-uri: /report-csp-violation
+            upgrade-req: false
+            policy-uri: ''
+          x_xss:
+            select: 0
+        seckit_csrf:
+          origin: false
+          origin_whitelist: ''
+        seckit_clickjacking:
+          js_css_noscript: false
+          noscript_message: 'Sorry, you need to enable JavaScript to visit this website.'
+          x_frame: '1'
+          x_frame_allow_from: ''
+        seckit_ssl:
+          hsts: false
+          hsts_subdomains: false
+          hsts_max_age: 1000
+          hsts_preload: false
+        seckit_ct:
+          expect_ct: false
+          max_age: 86400
+          report_uri: ''
+          enforce: false
+        seckit_fp:
+          feature_policy: false
+          feature_policy_policy: ''
+        seckit_various:
+          from_origin: false
+          from_origin_destination: same
+          referrer_policy: false
+          referrer_policy_policy: no-referrer-when-downgrade
+          disable_autocomplete: false
+    seeds_toolbar.settings:
+      simpleConfigUpdate:
+        search: true
+        group_admin_menu: true
+        content_group: true
+        content_shortcuts: false
+        menu_icons: true
+        tools_menu: true
+        create_entity_types:
+          - node_type
+          - block_content_type
+          - media_type
+          - taxonomy_vocabulary
+          - menu
+        custom_links: {  }
+        support:
+          enabled: false
+          title: Support
+          url: ''
+          icon: help
+          uuid: ''
+        contextual:
+          placement: sidebar
+          uuid: 5fcdbb5a-0c1f-439c-8155-728d8e82af22
+        page_actions:
+          placement: sidebar
+          uuid: 6156bfac-abb4-44c6-8d5b-8b88d9dad9b2
+        responsive_preview:
+          enabled: true
+          uuid: c074ae3b-ec82-43bd-8ec1-deff4630875f
+        logo:
+          collapsed_path: ''
+        logo_status:
+          version: true
+          updates: true
+          announcements: true
+        appearance:
+          scheme: light
+          accent: '#1890ff'
+    seeds_ui.settings:
+      simpleConfigUpdate:
+        favicon:
+          use_default: true
+        logo:
+          use_default: true
+        navbar:
+          navbar_container: true
+        blazy:
+          override: false
+    session_limit.settings:
+      simpleConfigUpdate:
+        session_limit_max: 1
+        session_limit_masquerade_ignore: false
+        session_limit_behaviour: 0
+        session_limit_logged_out_message_severity: warning
+        session_limit_admin_inclusion: 0
+        session_limit_roles: {  }
+        session_limit_logged_out_display_message: 'You have been automatically logged out. Someone else has logged in with your username and password and the maximum number of @number simultaneous session(s) was exceeded. This may indicate that your account has been compromised or that account sharing is not allowed on this site. Please contact the site administrator if you suspect your account has been compromised.'
+        session_limit_log_events: false
+    system.advisories:
+      simpleConfigUpdate:
+        enabled: true
+        interval_hours: 6
+    system.cron:
+      simpleConfigUpdate:
+        threshold:
+          requirements_warning: 172800
+          requirements_error: 1209600
+        logging: true
+    system.date:
+      simpleConfigUpdate:
+        first_day: 0
+        country:
+          default: null
+        timezone:
+          default: Asia/Amman
+          user:
+            configurable: true
+            default: 0
+            warn: false
+    system.diff:
+      simpleConfigUpdate:
+        context:
+          lines_leading: 2
+          lines_trailing: 2
+    system.feature_flags:
+      simpleConfigUpdate:
+        linkset_endpoint: false
+    system.file:
+      simpleConfigUpdate:
+        allow_insecure_uploads: false
+        default_scheme: public
+        temporary_maximum_age: 21600
+    system.image.gd:
+      simpleConfigUpdate:
+        jpeg_quality: 75
+    system.image:
+      simpleConfigUpdate:
+        toolkit: gd
+    system.logging:
+      simpleConfigUpdate:
+        error_level: hide
+    system.mail:
+      simpleConfigUpdate:
+        interface:
+          default: php_mail
+        mailer_dsn:
+          scheme: sendmail
+          host: default
+          user: null
+          password: null
+          port: null
+          options: {  }
+    system.maintenance:
+      simpleConfigUpdate:
+        message: '@site is currently under maintenance. We should be back shortly. Thank you for your patience.'
+    system.performance:
+      simpleConfigUpdate:
+        cache:
+          page:
+            max_age: 0
+        css:
+          preprocess: true
+          compress: true
+        fast_404:
+          enabled: true
+          paths: '/\.(?:txt|png|gif|jpe?g|css|js|ico|swf|flv|cgi|bat|pl|dll|exe|asp)$/i'
+          exclude_paths: '/\/(?:styles|imagecache)\//'
+          html: '<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>The requested URL "@path" was not found on this server.</p></body></html>'
+        js:
+          preprocess: true
+          compress: true
+    system.site:
+      simpleConfigUpdate:
+        slogan: ''
+        page:
+          403: ''
+          404: ''
+          front: /user
+        admin_compact_mode: false
+        weight_select_max: 100
+        mail_notification: null
+    system.theme.global:
+      simpleConfigUpdate:
+        favicon:
+          mimetype: image/vnd.microsoft.icon
+          path: ''
+          url: ''
+          use_default: true
+        features:
+          comment_user_picture: true
+          comment_user_verification: true
+          favicon: true
+          node_user_picture: true
+        logo:
+          path: ''
+          url: null
+          use_default: true
+    system.theme:
+      simpleConfigUpdate:
+        admin: default_admin
+        default: seeds_ui
+    taxonomy.settings:
+      simpleConfigUpdate:
+        maintain_index_table: true
+        override_selector: false
+        terms_per_page_admin: 100
+    text.settings:
+      simpleConfigUpdate:
+        default_summary_length: 600
+    update.settings:
+      simpleConfigUpdate:
+        check:
+          disabled_extensions: true
+          interval_days: 1
+        fetch:
+          url: null
+          max_attempts: 2
+          timeout: 30
+        notification:
+          emails:
+            - admin@example.com
+          threshold: all
+    user.flood:
+      simpleConfigUpdate:
+        uid_only: false
+        ip_limit: 50
+        ip_window: 3600
+        user_limit: 5
+        user_window: 21600
+    user.mail:
+      simpleConfigUpdate:
+        cancel_confirm:
+          subject: 'Account cancellation request for [user:display-name] at [site:name]'
+          body: |-
+            [user:display-name]
+
+            A request to cancel your account has been made at [site:name].
+
+            You may now cancel your account on [site:url-brief] by clicking this link or copying and pasting it into your browser:
+
+            [user:cancel-url]
+
+            NOTE: The cancellation of your account is not reversible.
+
+            This link expires in one day and nothing will happen if it is not used.
+
+            --  [site:name] team
+        password_reset:
+          subject: 'Replacement login information for [user:display-name] at [site:name]'
+          body: |-
+            [user:display-name],
+
+            A request to reset the password for your account has been made at [site:name].
+
+            You may now log in by clicking this link or copying and pasting it into your browser:
+
+            [user:one-time-login-url]
+
+            This link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it's not used.
+
+            --  [site:name] team
+        register_admin_created:
+          subject: 'An administrator created an account for you at [site:name]'
+          body: |-
+            [user:display-name],
+
+            A site administrator at [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it into your browser:
+
+            [user:one-time-login-url]
+
+            This link can only be used once to log in and will lead you to a page where you can set your password.
+
+            After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+            username: [user:name]
+            password: Your password
+
+            --  [site:name] team
+        register_no_approval_required:
+          subject: 'Account details for [user:display-name] at [site:name]'
+          body: |-
+            [user:display-name],
+
+            Thank you for registering at [site:name]. You may now log in by clicking this link or copying and pasting it into your browser:
+
+            [user:one-time-login-url]
+
+            This link can only be used once to log in and will lead you to a page where you can set your password.
+
+            After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+            username: [user:name]
+            password: Your password
+
+            --  [site:name] team
+        register_pending_approval:
+          subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+          body: |-
+            [user:display-name],
+
+            Thank you for registering at [site:name]. Your application for an account is currently pending approval. Once it has been approved, you will receive another email containing information about how to log in, set your password, and other details.
+
+            --  [site:name] team
+        register_pending_approval_admin:
+          subject: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+          body: |-
+            [user:display-name] has applied for an account.
+
+            [user:edit-url]
+        status_activated:
+          subject: 'Account details for [user:display-name] at [site:name] (approved)'
+          body: |-
+            [user:display-name],
+
+            Your account at [site:name] has been activated.
+
+            You may now log in by clicking this link or copying and pasting it into your browser:
+
+            [user:one-time-login-url]
+
+            This link can only be used once to log in and will lead you to a page where you can set your password.
+
+            After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+            username: [user:account-name]
+            password: Your password
+
+            --  [site:name] team
+        status_blocked:
+          subject: 'Account details for [user:display-name] at [site:name] (blocked)'
+          body: |-
+            [user:display-name],
+
+            Your account on [site:name] has been blocked.
+
+            --  [site:name] team
+        status_canceled:
+          subject: 'Account details for [user:display-name] at [site:name] (canceled)'
+          body: |-
+            [user:display-name],
+
+            Your account on [site:name] has been canceled.
+
+            --  [site:name] team
+    user.settings:
+      simpleConfigUpdate:
+        anonymous: Anonymous
+        verify_mail: true
+        notify:
+          cancel_confirm: true
+          password_reset: true
+          status_activated: true
+          status_blocked: false
+          status_canceled: false
+          register_admin_created: true
+          register_no_approval_required: true
+          register_pending_approval: true
+        register: admin_only
+        cancel_method: user_cancel_block
+        password_reset_timeout: 86400
+        password_strength: true
+    views.settings:
+      simpleConfigUpdate:
+        display_extenders: {  }
+        sql_signature: false
+        ui:
+          show:
+            additional_queries: false
+            default_display: false
+            performance_statistics: false
+            preview_information: true
+            sql_query:
+              enabled: false
+              where: above
+            display_embed: false
+          always_live_preview: true
+          exposed_filter_any_label: old_any
+        field_rewrite_elements:
+          div: DIV
+          span: SPAN
+          h1: H1
+          h2: H2
+          h3: H3
+          h4: H4
+          h5: H5
+          h6: H6
+          p: P
+          header: HEADER
+          footer: FOOTER
+          article: ARTICLE
+          section: SECTION
+          aside: ASIDE
+          details: DETAILS
+          blockquote: BLOCKQUOTE
+          figure: FIGURE
+          address: ADDRESS
+          code: CODE
+          pre: PRE
+          var: VAR
+          samp: SAMP
+          kbd: KBD
+          strong: STRONG
+          em: EM
+          del: DEL
+          ins: INS
+          q: Q
+          s: S

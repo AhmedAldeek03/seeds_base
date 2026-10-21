@@ -1,0 +1,11 @@
+langcode: en
+status: 1
+dependencies: {  }
+id: phone
+label: Phone
+weight: 0
+orientation: portrait
+dimensions:
+  width: 1170
+  height: 2532
+  dppx: 3.0

@@ -1,0 +1,11 @@
+langcode: en
+status: 1
+dependencies: {  }
+id: tablet_landscape
+label: 'Tablet Landscape'
+weight: 2
+orientation: landscape
+dimensions:
+  width: 2360
+  height: 1640
+  dppx: 2.0

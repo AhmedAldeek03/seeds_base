@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.advanced_editor
+  module:
+    - ace_editor
+format: advanced_editor
+editor: ace_editor
+settings:
+  fieldset:
+    theme: terminal
+    syntax: html
+    height: 300px
+    width: 100%
+    font_size: 12pt
+    line_numbers: true
+    show_invisibles: true
+    print_margins: true
+    auto_complete: true
+    use_wrap_mode: true
+  theme: cobalt
+  syntax: html
+  height: 300px
+  width: 100%
+  font_size: 12pt
+  line_numbers: true
+  show_invisibles: false
+  print_margins: true
+  auto_complete: true
+  use_wrap_mode: true
+  syntax_field: _none
+  modelist: false
+  inline: false
+image_upload: {  }
